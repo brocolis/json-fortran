@@ -2009,9 +2009,9 @@
 
     subroutine json_throw_exception(json,msg,found)
 
-#ifdef __INTEL_COMPILER
-    use ifcore, only: tracebackqq
-#endif
+!#ifdef __INTEL_COMPILER
+!    use ifcore, only: tracebackqq
+!#endif
 
     implicit none
 

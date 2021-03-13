@@ -1,0 +1,15 @@
+name       = "json-fortran"
+version    = "8.2.1"
+license    = "license"
+author     = "Jacob Williams"
+maintainer = "@jacobwilliams"
+copyright  = "Copyright (c) 2014-2020, Jacob Williams"
+homepage   = "@https://github.com/jacobwilliams"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+
+[install]
+library = false
